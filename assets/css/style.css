@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap");
+
+body {
+  font-family: "Prompt", sans-serif;
+  padding: 0 10%;
+}
+
+#first form {
+  width: 40%;
+}
+#first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#first article {
+  font-size: 2em;
+  font-family: "Prompt", sans-serif;
+}
+#first,
+#gallery,
+#tipps,
+footer {
+  padding: 5%;
+}
+#tipps select {
+  width: 100%;
+}
+#tipps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  color: blue;
+}
+footer div:nth-child(2) {
+  width: 40%;
+  padding-right: 10%;
+}
+footer {
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+}
