@@ -31,6 +31,10 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+#tipps div:nth-child(2) select:nth-child(2) {
+  display: none;
+  visibility: hidden;
+}
 .navbar-brand {
   color: blue;
 }
@@ -45,4 +49,53 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10%;
+}
+/*** Smartphone ***/
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lime;
+  }
+  #first article,
+  #tipps img {
+    display: none;
+  }
+  #tipps {
+    display: block;
+  }
+  #tipps div:nth-child(2) select:nth-child(1) {
+    display: none;
+    visibility: hidden;
+  }
+  #tipps div:nth-child(2) select:nth-child(2) {
+    visibility: visible;
+    display: block;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+  footer .mb-3 {
+    display: none;
+  }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: gold;
+  }
+  #first {
+    display: block;
+  }
+  #first form {
+    width: 100%;
+  }
+  #first article {
+    padding-top: 5%;
+  }
+  #first article h2 {
+    font-size: 0.8em;
+  }
 }
